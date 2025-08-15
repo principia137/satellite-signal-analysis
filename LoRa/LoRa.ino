@@ -2,7 +2,7 @@
 // #include <SPI.h>
 #include <SoftwareSerial.h> // Rx, Tx에 연결된 모듈과 UART 통신
 
-SoftwareSerial lora(2, 3);// SoftwareSerial(Rx, Tx)
+SoftwareSerial lora(0, 1);// SoftwareSerial(Rx, Tx)
 const char EN = 4;  // LoRa 모듈 활성화(Enable) 핀
 const char AUX = 5; // 보조(Auxiliary) 핀 (코드에서는 사용되지 않음)
 
